@@ -1,0 +1,27 @@
+{
+  "name": "traffic-light-for-jenkins",
+  "description": "Traffic light for Jenkins CI",
+  "version": "0.0.1",
+  "author": {
+    "name": "Vladimir Matsola <vomchik@gmail.com>",
+    "email": "vomchik@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vomchik/jenkins-notification.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rwldrn/johnny-five/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "jenkins_notification",
+  "engines": {
+    "node": ">=0.8.*"
+  },
+  "dependencies": {
+    "johnny-five": "latest",
+    "jenkins": "latest"
+  }
+}
